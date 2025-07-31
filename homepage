@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>BharatComfort - Feel all the comforts</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <!-- Header Section -->
+  <header>
+    <img src="logo.png" alt="BharatComfort Logo" class="logo" />
+    <h1>Feel all the comforts with BharatComfort</h1>
+  </header>
+
+  <!-- Navigation for Locations -->
+  <nav>
+    <h2>Select Your Location</h2>
+    <ul id="locationList">
+      <!-- Locations will be populated here via JavaScript -->
+    </ul>
+  </nav>
+
+  <!-- Main Content -->
+  <main id="listingContainer">
+    <h2>Welcome to BharatComfort</h2>
+    <p>We bring the best hotel and restaurant experiences near you. Please choose a location to get started.</p>
+  </main>
+
+  <!-- Footer Section -->
+  <footer>
+    <p>📞 9277168528 | ✉️ shrrajbhar12340@gmail.com | 💬 WhatsApp: Same as phone</p>
+  </footer>
+
+  <!-- JavaScript for Location Listings -->
+  <script src="locations.js"></script>
+</body>
+</html>
